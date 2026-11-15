@@ -1,0 +1,19 @@
+Rank,Approach,Model,Accuracy,Macro F1
+1,CNN Ensemble,SoftVoting Ensemble,0.996321,0.996351
+2,CNN Individual,EfficientNetB0,0.995708,0.995714
+3,CNN Individual,ResNet18,0.993256,0.993218
+4,CNN Individual,DenseNet121,0.992029,0.992017
+5,CNN Individual,MobileNetV2,0.991416,0.991299
+6,CNN Individual,AlexNet,0.955855,0.955869
+7,Handcrafted,GLCM + Random Forest,0.723483,0.722685
+8,Handcrafted,Combined + Random Forest,0.724096,0.721058
+9,Handcrafted,GLCM + KNN,0.684856,0.683064
+10,Handcrafted,GLCM + SVM,0.659105,0.654293
+11,Handcrafted,LBP + Random Forest,0.625996,0.612983
+12,Handcrafted,HOG + Random Forest,0.57572,0.555348
+13,Handcrafted,LBP + KNN,0.553648,0.548938
+14,Handcrafted,Combined + SVM,0.523605,0.519114
+15,Handcrafted,LBP + SVM,0.535254,0.494069
+16,Handcrafted,HOG + SVM,0.454323,0.451593
+17,Handcrafted,Combined + KNN,0.350092,0.310444
+18,Handcrafted,HOG + KNN,0.326793,0.282081
